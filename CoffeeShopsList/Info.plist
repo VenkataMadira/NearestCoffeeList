@@ -20,6 +20,10 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>We use your location data to find coffee shops around you</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>We need your location data to find coffee shops around you</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		C788CB0825BF730200D5ABA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C788CB0725BF730200D5ABA5 /* AppDelegate.swift */; };
 		C788CB0A25BF730200D5ABA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C788CB0925BF730200D5ABA5 /* SceneDelegate.swift */; };
-		C788CB0C25BF730200D5ABA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C788CB0B25BF730200D5ABA5 /* ViewController.swift */; };
 		C788CB0F25BF730200D5ABA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C788CB0D25BF730200D5ABA5 /* Main.storyboard */; };
 		C788CB1125BF730300D5ABA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C788CB1025BF730300D5ABA5 /* Assets.xcassets */; };
 		C788CB1425BF730300D5ABA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C788CB1225BF730300D5ABA5 /* LaunchScreen.storyboard */; };
 		C788CB1F25BF730400D5ABA5 /* CoffeeShopsListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C788CB1E25BF730400D5ABA5 /* CoffeeShopsListTests.swift */; };
 		C788CB2A25BF730400D5ABA5 /* CoffeeShopsListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C788CB2925BF730400D5ABA5 /* CoffeeShopsListUITests.swift */; };
+		C788CB3E25BF738600D5ABA5 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C788CB3D25BF738600D5ABA5 /* ListVC.swift */; };
+		C788CB4325BF73C000D5ABA5 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C788CB4225BF73C000D5ABA5 /* APIClient.swift */; };
+		C788CB4825BF73E700D5ABA5 /* FoursquareClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C788CB4725BF73E700D5ABA5 /* FoursquareClient.swift */; };
+		C788CB4D25BF740500D5ABA5 /* FoursquareModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C788CB4C25BF740500D5ABA5 /* FoursquareModel.swift */; };
+		C788CB5225BF743F00D5ABA5 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C788CB5125BF743F00D5ABA5 /* ListCell.swift */; };
+		C788CB5725BF745B00D5ABA5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C788CB5625BF745B00D5ABA5 /* LocationManager.swift */; };
+		C788CB5D25BF79AD00D5ABA5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C788CB5C25BF79AD00D5ABA5 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,6 @@
 		C788CB0425BF730200D5ABA5 /* CoffeeShopsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeShopsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C788CB0725BF730200D5ABA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C788CB0925BF730200D5ABA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C788CB0B25BF730200D5ABA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C788CB0E25BF730200D5ABA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C788CB1025BF730300D5ABA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C788CB1325BF730300D5ABA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		C788CB2525BF730400D5ABA5 /* CoffeeShopsListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeShopsListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C788CB2925BF730400D5ABA5 /* CoffeeShopsListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeShopsListUITests.swift; sourceTree = "<group>"; };
 		C788CB2B25BF730400D5ABA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C788CB3D25BF738600D5ABA5 /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		C788CB4225BF73C000D5ABA5 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		C788CB4725BF73E700D5ABA5 /* FoursquareClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoursquareClient.swift; sourceTree = "<group>"; };
+		C788CB4C25BF740500D5ABA5 /* FoursquareModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoursquareModel.swift; sourceTree = "<group>"; };
+		C788CB5125BF743F00D5ABA5 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		C788CB5625BF745B00D5ABA5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		C788CB5C25BF79AD00D5ABA5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C788CB5D25BF79AD00D5ABA5 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +96,7 @@
 				C788CB1D25BF730400D5ABA5 /* CoffeeShopsListTests */,
 				C788CB2825BF730400D5ABA5 /* CoffeeShopsListUITests */,
 				C788CB0525BF730200D5ABA5 /* Products */,
+				C788CB5B25BF79AC00D5ABA5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +115,12 @@
 			children = (
 				C788CB0725BF730200D5ABA5 /* AppDelegate.swift */,
 				C788CB0925BF730200D5ABA5 /* SceneDelegate.swift */,
-				C788CB0B25BF730200D5ABA5 /* ViewController.swift */,
+				C788CB3D25BF738600D5ABA5 /* ListVC.swift */,
+				C788CB4225BF73C000D5ABA5 /* APIClient.swift */,
+				C788CB4725BF73E700D5ABA5 /* FoursquareClient.swift */,
+				C788CB4C25BF740500D5ABA5 /* FoursquareModel.swift */,
+				C788CB5125BF743F00D5ABA5 /* ListCell.swift */,
+				C788CB5625BF745B00D5ABA5 /* LocationManager.swift */,
 				C788CB0D25BF730200D5ABA5 /* Main.storyboard */,
 				C788CB1025BF730300D5ABA5 /* Assets.xcassets */,
 				C788CB1225BF730300D5ABA5 /* LaunchScreen.storyboard */,
@@ -126,6 +145,14 @@
 				C788CB2B25BF730400D5ABA5 /* Info.plist */,
 			);
 			path = CoffeeShopsListUITests;
+			sourceTree = "<group>";
+		};
+		C788CB5B25BF79AC00D5ABA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C788CB5C25BF79AD00D5ABA5 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C788CB0C25BF730200D5ABA5 /* ViewController.swift in Sources */,
+				C788CB4D25BF740500D5ABA5 /* FoursquareModel.swift in Sources */,
+				C788CB3E25BF738600D5ABA5 /* ListVC.swift in Sources */,
 				C788CB0825BF730200D5ABA5 /* AppDelegate.swift in Sources */,
+				C788CB5225BF743F00D5ABA5 /* ListCell.swift in Sources */,
+				C788CB5725BF745B00D5ABA5 /* LocationManager.swift in Sources */,
+				C788CB4825BF73E700D5ABA5 /* FoursquareClient.swift in Sources */,
 				C788CB0A25BF730200D5ABA5 /* SceneDelegate.swift in Sources */,
+				C788CB4325BF73C000D5ABA5 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
